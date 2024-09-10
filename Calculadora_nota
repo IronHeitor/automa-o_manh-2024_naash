@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite o preço do produto: ");
+		float price = scan.nextFloat();
+		System.out.println("Digite o tanto de unidade vendida: ");
+		float quant = scan.nextFloat();
+		float tot = price*quant;
+		System.out.println("Você ganhou "+ tot + " Reais");
+	}
+}
