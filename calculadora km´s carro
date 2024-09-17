@@ -1,0 +1,15 @@
+import java.util.scanner
+public class main
+{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite a velocidade:");
+		int n1 = scan.nextInt();
+		int n2 = (n1-80)*5;
+		if(n1<=80){
+		    System.out.println("Velocidade permitida");
+		}else{
+		  System.out.println("Você terá que pagar "+ n2 +" reais");
+		}
+    }
+}
