@@ -1,0 +1,77 @@
+##Entrada de dados
+print("_A Calculadora Pythonesca_")
+print("")
+print("-Entrada dos números-")
+print("")
+n1 = int(input("Digite o primeiro número:"))
+n2 = int(input("Digite o segundo número: "))
+print("")
+
+#Adição
+print("")
+print("ADIÇÃO")
+a = n1 + n2
+print(f"O resultado da soma  entre {n1} e {n2} é {a}")
+print("")
+
+#Subtração
+print("")
+print("SUBTRAÇÃO")
+b = n1 - n2
+print(f"O resultado da subtração entre {n1} e {n2} é igual a {b}")
+print("")
+
+#Multiplicação
+print("")
+print("MULTIPLICAÇÃO")
+c = n1 * n2
+print(f"O resultado da multiplicação entre {n1} e {n2} é igual a {c}")
+print("")
+
+#divisão
+print("")
+print("DIVISÃO")
+d = n1 / n2
+print(f"O resultado da divisão entre {n1} e {n2} é igual a {d}")
+print("")
+
+#Potência
+print("")
+print("POTÊNCIA")
+e = n1**n2
+print(f"O resultado da potência entre {n1} e {n2} é igual a {e}")
+print("")
+
+#Radiciação ou Raiz
+print("")
+print("RADICIAÇÃO OU RAIZ")
+print("Raiz quadrada")
+f = n1**(1 / 2)
+g = n2**(1 / 2)
+print(f"o resultado da raiz quadrada de {n1} é {f} e a raiz quadrada de {n2} é {g}")
+print("")
+
+print("Raiz cúbica")
+h = n1**(1 / 3)
+i = n2**(1 / 3)
+print(f"o resultado da raiz cúbica de {n1} é {h} e a raiz cúbica de {n2} é {i}")
+print("")
+
+print("Raiz quarta")
+j = n1**(1 / 4)
+k = n1**(1 / 4)
+print(f"o resultado da raiz quarta de {n1} é {j} e a raiz quarta de {n2} é {k}")
+print("")
+
+
+
+#Tabuadas
+print("")
+print("Tabuadas")
+cont = 0
+while cont <10:
+  cont += 1
+  result = n1 * cont
+  resul = n2 * cont
+  print(f"{n1} x {cont} = {result}")
+  print(f"{n2} x {cont} = {resul}")
