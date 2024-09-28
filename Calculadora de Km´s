@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o número de km percorrido: ");
+        float km = scan.nextFloat();
+        double price = (0.5*km);
+        double preco = (0.45*km);
+        if (km<=200){
+            System.out.println("Sua viagem custará "+ price+ " reais");
+        }else{
+            System.out.println("Sua viagem custará "+ preco+ " reais");
+        }
+            
+        }
+    }
