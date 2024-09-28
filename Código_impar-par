@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+       System.out.println("Digite o número: ");
+       int n1 = scan.nextInt();
+       int n2 = (n1/2);
+       if (n2 == 0){
+           System.out.println("É impar");
+       }else{
+           System.out.println("É par");
+       }
+       }
+    }
