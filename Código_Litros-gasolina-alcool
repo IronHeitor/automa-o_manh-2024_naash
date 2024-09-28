@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite quantos litros você vendeu: ");
+        int li = scan.nextInt();
+        System.out.println("Digite o tipo de combustível(Álcool = 1 e Gasolina = 2):  ");
+        int tipo = scan.nextInt();
+        double precoa = (li*1.9);
+        double precog = (li*2.7);
+        if (tipo==1){
+            System.out.println("O cliente pagará "+ precoa+ "0 reais");
+        }else{
+            System.out.println("o cliente pagará "+ precog+ "0 reais");
+        }
+           
+        }
+    }
