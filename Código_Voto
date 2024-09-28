@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+     public static void main(String[] args) {
+	   Scanner scan = new Scanner(System.in);
+	    System.out.println("Digite quando você nasceu: ");
+	    int nasci = scan.nextInt();
+	    System.out.println("Em que ano estamos? ");
+	    int ano = scan.nextInt();
+	    int idade = (ano-nasci);
+	    if (idade>=16){
+	        System.out.println("Pode votar.");
+	    }else{
+	        System.out.println("Não pode votar");
+	    }
+	    }
+	    
+    }
