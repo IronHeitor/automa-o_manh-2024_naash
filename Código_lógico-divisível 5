@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("digite o número: ");
+        int n1 = scan.nextInt();
+        if (n1/5 == 0){
+            System.out.println("Não é divisível por 5.");
+        }else
+            System.out.println("É divisível por 5");
+ }
+}
