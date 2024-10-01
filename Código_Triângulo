@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Sua figura é um triângulo?");
+        boolean t = scan.nextBoolean();
+        System.out.println("Digite o valor do primeiro lado: ");
+        int A = scan.nextInt();
+        System.out.println("Digite o valor do segundo lado: ");
+        int B = scan.nextInt();
+        System.out.println("Digite o valor do terceiro lado: ");
+        int C = scan.nextInt();
+        boolean n1 = (A==B) & (B==C);
+        boolean n2 = (A==B) || (B==C);
+        if (t=true){
+        if (n1 = true){
+            System.out.println("O triângulo é equilátero");
+        }if (n2 = true){
+            System.out.println("O triângulo é isósceles");
+        }
+        else{
+            System.out.println("O triângulo é escaleno");
+        }
+}
+}
+}
