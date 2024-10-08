@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("digite a nota do primeiro trimestre: ");
+        int t1 = scan.nextInt();
+        System.out.println("digite a nota do segundo trimestre: ");
+        int t2 = scan.nextInt();
+        System.out.println("digite a nota do terceiro trimestre: ");
+        int t3 = scan.nextInt();
+        System.out.println("digite o número de faltas: ");
+        int f = scan.nextInt();
+        int tot = (t1*3+t2*3+t3*4)/10;
+        if (tot>=60){
+            if (f<=50){
+                System.out.println("você passou !");
+            }
+        }else{
+            System.out.println("você reprovou !");
+        }
+        
+    }
+}
