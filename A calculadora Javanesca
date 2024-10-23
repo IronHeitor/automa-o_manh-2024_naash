@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("_A Calculadora Javanesca_");
+        System.out.println("Digite o primeiro número: ");
+        double n1 = scan.nextDouble();
+        System.out.println("Digite o segundo número: ");
+        double n2 = scan.nextDouble();
+        //Adição
+        System.out.println("Adição");
+        double soma = (n1+n2);
+        System.out.println("A soma entre "+ n1 +" e "+ n2 +" é " + soma);
+        System.out.println();
+        //Subtração
+        System.out.println("Subtração");
+        double sub = (n1-n2);
+        System.out.println("A subtração entre "+ n1 +" e "+ n2 +" é "+ sub);
+        System.out.println();
+        //Multiplicação
+        System.out.println("Multiplicação");
+        double mult = (n1*n2);
+        System.out.println("A multiplicação entre "+ n1 +" e "+ n2 +" é "+ mult);
+        System.out.println();
+        //Divisão
+        System.out.println("Divisão");
+        double div = (n1/n2);
+        System.out.println("A divisão entre "+ n1 +" e "+ n2 +" é "+ div);
+        System.out.println();
+        //potência
+        double pot = Math.pow(n1, n2);
+        System.out.println("A potência entre "+ n1 +" e "+ n2 +" é "+ pot);
+        System.out.println();
+        //Raiz Quadrada
+        double rad1 = Math.sqrt(n1);
+        System.out.println("A raiz quadrada de "+ n1 +" é "+rad1);
+        double rad2 = Math.sqrt(n2)
+        System.out.println("A raiz quadrada de "+ n1 +" é "+rad2);
+        System.out.println();
+        //Tabuadas
+        int x = 1;
+        while (x<=10){
+            res = x*n1;
+            System.out.println("Tabuada de "+ n1)
+        }
+    }
+}
