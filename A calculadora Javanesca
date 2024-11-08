@@ -35,14 +35,23 @@ public class Main
         //Raiz Quadrada
         double rad1 = Math.sqrt(n1);
         System.out.println("A raiz quadrada de "+ n1 +" é "+rad1);
-        double rad2 = Math.sqrt(n2)
+        double rad2 = Math.sqrt(n2);
         System.out.println("A raiz quadrada de "+ n1 +" é "+rad2);
         System.out.println();
         //Tabuadas
+        System.out.println("Tabuada de "+ n1);
         int x = 1;
         while (x<=10){
-            res = x*n1;
-            System.out.println("Tabuada de "+ n1)
+            double res = x*n1;
+            System.out.println(res);
+            x = x+1;
+        }
+        System.out.println("Tabuada de "+ n2);
+        int y = 1;
+        while(y<=10){
+            double ans = y*n2;
+            System.out.println(ans);
+            y = y+1;
         }
     }
 }
