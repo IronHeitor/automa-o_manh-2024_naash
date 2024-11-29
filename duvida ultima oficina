@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+    public static int trianguloresult(int a, int b){
+        return a*b/2;
+    }
+        public static float circuloresult(float r){
+        return r*r*3.14;
+    }
+    
+    Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) {
+    }
+    System.out.println("Digite 1 para triângulo, 2 para círculo e 3 para retângulo: ");
+    int detect = scan.nextInt();
+    if (detect==1){
+        System.out.pritln("Digite o valor da base e da altura, respectivamente (caso haja números com vírgula, favor arredondar o número): ");
+        int baset = scan.nextInt();
+        int altt = scan.nextInt();
+        int resultt = trianguloresult(baset, altt);
+    }
+}
